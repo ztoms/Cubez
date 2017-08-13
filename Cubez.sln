@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubez", "Cubez.csproj", "{B85FCBB5-BF74-626F-1FAC-E6C0CF92632E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubez.Plugins", "Cubez.Plugins.csproj", "{112F2748-C9C4-6846-049D-76B2835761FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubez.Editor", "Cubez.Editor.csproj", "{82E72590-5C27-CC70-E0BA-512ED7388A17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85FCBB5-BF74-626F-1FAC-E6C0CF92632E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85FCBB5-BF74-626F-1FAC-E6C0CF92632E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85FCBB5-BF74-626F-1FAC-E6C0CF92632E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85FCBB5-BF74-626F-1FAC-E6C0CF92632E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112F2748-C9C4-6846-049D-76B2835761FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112F2748-C9C4-6846-049D-76B2835761FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112F2748-C9C4-6846-049D-76B2835761FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112F2748-C9C4-6846-049D-76B2835761FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E72590-5C27-CC70-E0BA-512ED7388A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E72590-5C27-CC70-E0BA-512ED7388A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E72590-5C27-CC70-E0BA-512ED7388A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E72590-5C27-CC70-E0BA-512ED7388A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
