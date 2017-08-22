@@ -91,8 +91,7 @@ public class cubeController : MonoBehaviour {
 
     public void rotateCamera()
     {
-        if (!(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)))
-            camAngle *= Mathf.Pow(.99f, Time.deltaTime * (1000 - speed * 10));
+        camAngle *= Mathf.Pow(.99f, Time.deltaTime * (1000 - speed * 10));
 
         if (!GameControlScript.isGameOver() && camAngle < speed && camAngle > -speed)
         {

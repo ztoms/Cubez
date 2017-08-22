@@ -49,7 +49,7 @@ public class StageChange : MonoBehaviour {
         }
         delayTimer -= Time.deltaTime;
 
-		if (GameControlScript.getScore() % 25 == 0 && GameControlScript.getScore() > 1 && delayTimer < 0)
+		if (delayTimer < 0 && GameControlScript.getScore() % 25 == 0 && GameControlScript.getScore() > 1)
         {
             
             switch (stageNum) 

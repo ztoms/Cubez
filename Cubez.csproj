@@ -281,6 +281,7 @@
     <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
     <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
+    <Compile Include="Assets\GPGSIds.cs" />
     <Compile Include="Assets\Scripts\BlueCubeSpawner.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CloudMove.cs" />
@@ -297,6 +298,7 @@
     <Compile Include="Assets\Scripts\LogoLoader.cs" />
     <Compile Include="Assets\Scripts\OrangeCubeSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
+    <Compile Include="Assets\Scripts\PlayGamesScript.cs" />
     <Compile Include="Assets\Scripts\RedCubeSpawner.cs" />
     <Compile Include="Assets\Scripts\RightMove.cs" />
     <Compile Include="Assets\Scripts\RightTrigger.cs" />
